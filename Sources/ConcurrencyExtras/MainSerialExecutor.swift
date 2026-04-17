@@ -1,4 +1,4 @@
-#if !os(WASI) && !os(Windows) && !os(Android)
+#if !os(WASI) && !os(Windows)
   import Foundation
 
   #if compiler(>=6)
